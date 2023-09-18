@@ -1,0 +1,15 @@
+D:\Practicas_Programacion_Distribuida\C#\Practicas\Practicas\bin\Debug\net6.0\Practicas.exe
+D:\Practicas_Programacion_Distribuida\C#\Practicas\Practicas\bin\Debug\net6.0\Practicas.deps.json
+D:\Practicas_Programacion_Distribuida\C#\Practicas\Practicas\bin\Debug\net6.0\Practicas.runtimeconfig.json
+D:\Practicas_Programacion_Distribuida\C#\Practicas\Practicas\bin\Debug\net6.0\Practicas.dll
+D:\Practicas_Programacion_Distribuida\C#\Practicas\Practicas\bin\Debug\net6.0\Practicas.pdb
+D:\Practicas_Programacion_Distribuida\C#\Practicas\Practicas\obj\Debug\net6.0\Practicas.csproj.AssemblyReference.cache
+D:\Practicas_Programacion_Distribuida\C#\Practicas\Practicas\obj\Debug\net6.0\Practicas.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practicas_Programacion_Distribuida\C#\Practicas\Practicas\obj\Debug\net6.0\Practicas.AssemblyInfoInputs.cache
+D:\Practicas_Programacion_Distribuida\C#\Practicas\Practicas\obj\Debug\net6.0\Practicas.AssemblyInfo.cs
+D:\Practicas_Programacion_Distribuida\C#\Practicas\Practicas\obj\Debug\net6.0\Practicas.csproj.CoreCompileInputs.cache
+D:\Practicas_Programacion_Distribuida\C#\Practicas\Practicas\obj\Debug\net6.0\Practicas.dll
+D:\Practicas_Programacion_Distribuida\C#\Practicas\Practicas\obj\Debug\net6.0\refint\Practicas.dll
+D:\Practicas_Programacion_Distribuida\C#\Practicas\Practicas\obj\Debug\net6.0\Practicas.pdb
+D:\Practicas_Programacion_Distribuida\C#\Practicas\Practicas\obj\Debug\net6.0\Practicas.genruntimeconfig.cache
+D:\Practicas_Programacion_Distribuida\C#\Practicas\Practicas\obj\Debug\net6.0\ref\Practicas.dll

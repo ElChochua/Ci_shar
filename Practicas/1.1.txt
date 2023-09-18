@@ -1,0 +1,100 @@
+using System;
+using System.Collections.Specialized;
+
+namespace Practica
+{
+    class Program
+    {
+        public bool numero_Primo(int numero) => numero % 2 == 0;
+
+        public void diagonal_Matriz(int[,] arr)
+        {
+            Console.WriteLine("Diagonal de la matriz:");
+            for (int i= 0; i<arr.GetLength(0); i++)
+            {
+                for(int j=0;j<arr.GetLength(1); j++)
+                {
+                    if(i == j)
+                    {
+                        int[] arr2 = new int[arr.GetLength(0)];
+                        arr2[i] = arr[i, j];
+                        Console.Write(arr2[i] + " ");
+                    }
+                }
+            }
+        }
+        public int[,] llenar_Matriz(int[,] arr)
+        {
+            //Hay error aca lo arreglas mañana 🤔
+            //System.NullReferenceException ese es el error te lo dejo de tarea yo del futuro👍
+            //Ya lo arregle padrino ✌
+            for (int i = 0; i < arr.GetLength(0); i++)
+            {
+                for(int j = 0; j < arr.GetLength(1); j++)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Ingresa un valor para la posicion [" + i +"][" + j + "]");
+                    arr[i,j] = Convert.ToInt32(Console.ReadLine());
+                }
+            }
+            return arr;
+        }
+        public void imprimir_Matriz(int[,] arr)
+        {
+            //Podia usar un foreach aca pero para que se viera 
+            for(int i = 0; i < arr.GetLength(0); i++)
+            {
+                for(int j=0;j<arr.GetLength(1); j++)
+                {
+                    Console.Write(arr[i,j] + " ");
+                }
+                Console.WriteLine();
+            }
+        }
+        public void menu()
+        {
+            int numero = 0;
+            int[,] arr = new int[3,3];
+            while(numero < 1 || numero > 3)
+            {
+                Console.Clear();
+                Console.WriteLine("Opcion [1].-If/Switch\nOpcion [2].-Ciclos/Matrices");
+                Console.WriteLine("Ingresa Una opcion");
+                numero = Convert.ToInt32(Console.ReadLine());
+                switch (numero)
+                {
+                    case 1:
+                        Console.Clear();
+                        Console.WriteLine("Ingresa un numero");
+                        int entrada = Convert.ToInt32(Console.ReadLine());
+                        if (numero_Primo(entrada))
+                        {
+                            Console.WriteLine("El Numero Es Par");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Numero Primo");
+                        }
+                        break;
+                    case 2:
+                        Console.Clear();
+                        Console.WriteLine("Ciclos/Matrices");
+                        llenar_Matriz(arr);
+                        imprimir_Matriz(arr);
+                        diagonal_Matriz(arr);
+
+                        break;
+                    default:
+                        Console.Clear();
+                        Console.WriteLine("Nambre padrino");
+                        break;
+                }
+            }
+        }
+        static void Main(string[] args)
+        {
+            Program programa = new Program();
+            programa.menu();
+        }
+    }
+}
